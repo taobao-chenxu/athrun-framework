@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/my_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/my_textview"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:text="Hello world" />
+
+        <EditText
+            android:id="@+id/my_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:text="Hello world" />
+
+        <AutoCompleteTextView
+            android:id="@+id/my_autocompletetextview"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:completionHint="Country"
+            android:text="Hello world" />
+
+        <CheckedTextView
+            android:id="@+id/my_checkedtextview"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:clickable="true"
+            android:gravity="center"
+            android:hint="CheckedTextView" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/my_multiautocompletetextview"
+            android:layout_width="match_parent"
+            android:layout_height="90dip" />
+
+        <CheckBox
+            android:id="@+id/textview_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+
+        <ToggleButton
+            android:id="@+id/my_togglebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:text="Hello world" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:text="Hello world" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:text="Hello world" />
+
+        <EditText
+            android:id="@+id/my_last_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:text="Hello world" />
+    </LinearLayout>
+
+</ScrollView>

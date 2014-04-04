@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:id="@+id/textviewtree_root">
+
+	<TextView android:id="@+id/textviewtree_one_one"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:text="@string/one_one" />
+
+	<TextView android:id="@+id/textviewtree_one_two"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:text="@string/one_two" />
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:id="@+id/textviewtree_one_three">
+
+		<TextView android:id="@+id/textviewtree_two_one"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:text="@string/two_one" />
+
+		<TextView android:id="@+id/textviewtree_two_two"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:text="@string/two_two" />
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:id="@+id/textviewtree_two_three">
+
+			<TextView android:id="@+id/textviewtree_three_one"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:text="@string/three_one" />
+
+			<TextView android:id="@+id/textviewtree_three_two"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:text="@string/three_two" />
+
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

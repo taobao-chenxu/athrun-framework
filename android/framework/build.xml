@@ -1,0 +1,105 @@
+<project
+    name="framework"
+    basedir="."
+    default="javadoc" >
+
+    <property
+        name="classes.dir"
+        value="bin" />
+
+    <property
+        name="src.dir"
+        value="src" />
+
+    <property
+        name="lib.dir"
+        value="libs" />
+
+    <property
+        name="ext.dir"
+        value="ext" />
+
+    <property
+        name="javadoc.dir"
+        value="javadoc" />
+
+    <path id="compile.classpath" >
+
+        <fileset
+            file="${lib.dir}"
+            includes="**/*.jar" />
+    </path>
+
+    <target name="init" >
+
+        <delete dir="${classes.dir}" />
+
+        <delete dir="${javadoc.dir}" />
+    </target>
+
+    <target
+        name="compile"
+        depends="init" >
+
+        <mkdir dir="${classes.dir}" />
+    	
+    	<copy todir="${classes.dir}">
+           <fileset dir=".">
+             <include name="src/" />
+           </fileset>
+        </copy>
+    	
+        <javac
+            destdir="${classes.dir}"
+            source="1.6"
+            srcdir="${src.dir}"
+            target="1.6" 
+			debug="true"
+			debuglevel="lines,vars,source"
+			>
+
+            <classpath refid="compile.classpath" />
+        </javac>
+    	<copy todir="${classes.dir}/org/athrun/android/framework/webview">
+           <fileset dir="./src/org/athrun/android/framework/webview">
+             <include name="WebView.js" />
+           </fileset>
+        </copy>
+    </target>
+
+    <target
+        name="jar"
+        depends="compile" >
+
+        <jar
+            basedir="${classes.dir}"
+            destfile="${basedir}/${ant.project.name}.jar" >
+            <zipfileset
+                excludes="META-INF/*.SF"
+                src="${lib.dir}/android-logging-log4j-1.0.2.jar" />
+
+            <zipfileset
+                excludes="META-INF/*.SF"
+                src="${lib.dir}/log4j-1.2.16.jar" />
+        	
+        </jar>
+    </target>
+
+    <target
+        name="javadoc"
+        depends="jar" >
+
+        <mkdir dir="${javadoc.dir}" />
+
+        <javadoc
+            destdir="${javadoc.dir}"
+            docencoding="GBK"
+            encoding="UTF-8" >
+
+            <packageset dir="${src.dir}" />
+
+            <classpath refid="compile.classpath" />
+        </javadoc>
+    </target>
+
+</project>

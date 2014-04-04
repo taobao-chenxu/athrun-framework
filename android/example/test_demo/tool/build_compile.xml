@@ -1,0 +1,84 @@
+﻿
+<project name="TmtsApp" default="dex" basedir=".">
+	<property name="outdir" value="bin" /> 
+	<property name="outdir-classes" value="${outdir}/classes" />  
+	 <property name="external-libs" value="libs" />  
+	 <property name="proguardlib" value="libs/proguard.jar" /> 
+		<property name="dex-file" value="${basedir}/classes.dex" /> 
+	  <condition property="aapt" value="aapt.exe" else="aapt" >  
+        <os family="windows"/>  
+    </condition>  
+	<condition property="aidl" value="aidl.exe" else="aidl" >  
+        <os family="windows"/> 
+	</condition>	
+	<condition property="dx" value="dx.bat" else="dx">  
+        <os family="windows" />  
+    </condition> 
+	<property name="outdir-r" value="src" />  
+	 <property name="android-jar" value="android.jar" />  
+	<property name="android-framework" value="framework.aidl" /> 
+	<property name="srcdir" value="src" />
+	<property name="resource-dir" value="res" /> 
+	
+
+    	<target name="compile" depends="dirs, resource-src, aidl">  
+        	 <javac encoding="UTF-8" target="1.5" debug="true" extdirs=""  
+                srcdir="."  
+                destdir="${outdir-classes}"  
+                bootclasspath="${android-jar}"
+				includeantruntime="on">  
+            <classpath>  
+                <fileset dir="${external-libs}" includes="*.jar"/>  
+            </classpath>  
+         </javac>  
+
+    	</target>
+		
+		<target name="dirs" >  
+			<echo>Creating output directories if needed...</echo>  
+			<mkdir dir="${outdir}" />  
+			<mkdir dir="${outdir-classes}" />  
+		</target>  
+
+		<!-- Generate the R.java file for this project's resources. -->  
+    <target name="resource-src" depends="dirs">  
+        <echo>Generating R.java / Manifest.java from the resources...</echo>  
+        <exec executable="${aapt}" failonerror="true">  
+            <arg value="package" />  
+            <arg value="-m" />  
+            <arg value="-J" />  
+            <arg value="${outdir-r}" />  
+            <arg value="-M" />  
+            <arg value="AndroidManifest.xml" />  
+            <arg value="-S" />  
+            <arg value="${resource-dir}" />  
+            <arg value="-I" />  
+            <arg value="${android-jar}" />  
+        </exec>  
+    </target>  
+  
+    <!-- Generate java classes from .aidl files. -->  
+    <target name="aidl" depends="dirs">  
+        <echo>Compiling aidl files into Java classes...</echo>  
+        <apply executable="${aidl}" failonerror="true">  
+            <arg value="-p${android-framework}" />  
+            <arg value="-I${srcdir}" />  
+            <fileset dir="${srcdir}">  
+                <include name="**/*.aidl"/>  
+            </fileset>  
+        </apply>  
+    </target>  
+    	
+		<!-- Convert this project's .class files into .dex files. -->  
+    <target name="dex" depends="compile">  
+        <echo>Converting compiled files and external libraries into ${outdir}/${dex-file}...</echo>
+    	<echo>Command: ${dx} --dex --output=${dex-file} ${outdir-classes}</echo> 
+        <apply executable="${dx}" failonerror="true" parallel="true">  
+            <arg value="--dex" />  
+			<arg value="--output=${dex-file}" />  
+            <arg path="${outdir-classes}" />
+        	<fileset dir="${external-libs}" includes="*.jar" />  
+        </apply>  
+    </target>  
+
+</project>

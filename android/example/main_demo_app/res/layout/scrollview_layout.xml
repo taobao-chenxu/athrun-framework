@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:scrollbars="vertical">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/scroll_button" android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/scrollview_button_top"/>
+			
+		<TextView android:id="@+id/scroll_textview"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textColor="#000" android:background="#fff" android:text="@string/scroll_text" />
+
+		<Button android:id="@+id/scroll_button2" android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/scrollview_button_bottom"/>
+
+	</LinearLayout>
+</ScrollView>  
+
