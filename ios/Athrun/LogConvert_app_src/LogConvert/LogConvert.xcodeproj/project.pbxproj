@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEEA5420150630910031E26C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEA541F150630910031E26C /* Cocoa.framework */; };
+		AEEA542A150630910031E26C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEEA5428150630910031E26C /* InfoPlist.strings */; };
+		AEEA542C150630910031E26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA542B150630910031E26C /* main.m */; };
+		AEEA5430150630910031E26C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AEEA542E150630910031E26C /* Credits.rtf */; };
+		AEEA5433150630910031E26C /* com_taoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA5432150630910031E26C /* com_taoAppDelegate.m */; };
+		AEEA5436150630910031E26C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEA5434150630910031E26C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEEA541B150630910031E26C /* LogConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEA541F150630910031E26C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AEEA5422150630910031E26C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AEEA5423150630910031E26C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AEEA5424150630910031E26C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEEA5427150630910031E26C /* LogConvert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogConvert-Info.plist"; sourceTree = "<group>"; };
+		AEEA5429150630910031E26C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEEA542B150630910031E26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEEA542D150630910031E26C /* LogConvert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogConvert-Prefix.pch"; sourceTree = "<group>"; };
+		AEEA542F150630910031E26C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AEEA5431150630910031E26C /* com_taoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_taoAppDelegate.h; sourceTree = "<group>"; };
+		AEEA5432150630910031E26C /* com_taoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_taoAppDelegate.m; sourceTree = "<group>"; };
+		AEEA5435150630910031E26C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEA5418150630910031E26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEA5420150630910031E26C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEA5410150630910031E26C = {
+			isa = PBXGroup;
+			children = (
+				AEEA5425150630910031E26C /* LogConvert */,
+				AEEA541E150630910031E26C /* Frameworks */,
+				AEEA541C150630910031E26C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEA541C150630910031E26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA541B150630910031E26C /* LogConvert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEA541E150630910031E26C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA541F150630910031E26C /* Cocoa.framework */,
+				AEEA5421150630910031E26C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEEA5421150630910031E26C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA5422150630910031E26C /* AppKit.framework */,
+				AEEA5423150630910031E26C /* CoreData.framework */,
+				AEEA5424150630910031E26C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AEEA5425150630910031E26C /* LogConvert */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA5431150630910031E26C /* com_taoAppDelegate.h */,
+				AEEA5432150630910031E26C /* com_taoAppDelegate.m */,
+				AEEA5434150630910031E26C /* MainMenu.xib */,
+				AEEA5426150630910031E26C /* Supporting Files */,
+			);
+			path = LogConvert;
+			sourceTree = "<group>";
+		};
+		AEEA5426150630910031E26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA5427150630910031E26C /* LogConvert-Info.plist */,
+				AEEA5428150630910031E26C /* InfoPlist.strings */,
+				AEEA542B150630910031E26C /* main.m */,
+				AEEA542D150630910031E26C /* LogConvert-Prefix.pch */,
+				AEEA542E150630910031E26C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEA541A150630910031E26C /* LogConvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEA5439150630910031E26C /* Build configuration list for PBXNativeTarget "LogConvert" */;
+			buildPhases = (
+				AEEA5417150630910031E26C /* Sources */,
+				AEEA5418150630910031E26C /* Frameworks */,
+				AEEA5419150630910031E26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogConvert;
+			productName = LogConvert;
+			productReference = AEEA541B150630910031E26C /* LogConvert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEA5412150630910031E26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AEEA5415150630910031E26C /* Build configuration list for PBXProject "LogConvert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEEA5410150630910031E26C;
+			productRefGroup = AEEA541C150630910031E26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEA541A150630910031E26C /* LogConvert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEA5419150630910031E26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEA542A150630910031E26C /* InfoPlist.strings in Resources */,
+				AEEA5430150630910031E26C /* Credits.rtf in Resources */,
+				AEEA5436150630910031E26C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEA5417150630910031E26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEA542C150630910031E26C /* main.m in Sources */,
+				AEEA5433150630910031E26C /* com_taoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEEA5428150630910031E26C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEA5429150630910031E26C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEEA542E150630910031E26C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEA542F150630910031E26C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AEEA5434150630910031E26C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEA5435150630910031E26C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEA5437150630910031E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AEEA5438150630910031E26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AEEA543A150630910031E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogConvert/LogConvert-Prefix.pch";
+				INFOPLIST_FILE = "LogConvert/LogConvert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEEA543B150630910031E26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogConvert/LogConvert-Prefix.pch";
+				INFOPLIST_FILE = "LogConvert/LogConvert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEA5415150630910031E26C /* Build configuration list for PBXProject "LogConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEA5437150630910031E26C /* Debug */,
+				AEEA5438150630910031E26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEA5439150630910031E26C /* Build configuration list for PBXNativeTarget "LogConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEA543A150630910031E26C /* Debug */,
+				AEEA543B150630910031E26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEEA5412150630910031E26C /* Project object */;
+}

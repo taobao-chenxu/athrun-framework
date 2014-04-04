@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7213B61B14ADAE6900E5ABE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213B61A14ADAE6900E5ABE9 /* UIKit.framework */; };
+		7213B61D14ADAE6900E5ABE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213B61C14ADAE6900E5ABE9 /* Foundation.framework */; };
+		7213B61F14ADAE6900E5ABE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213B61E14ADAE6900E5ABE9 /* CoreGraphics.framework */; };
+		7213B62514ADAE6900E5ABE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7213B62314ADAE6900E5ABE9 /* InfoPlist.strings */; };
+		7213B62714ADAE6900E5ABE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213B62614ADAE6900E5ABE9 /* main.m */; };
+		7213B62B14ADAE6900E5ABE9 /* TaoTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213B62A14ADAE6900E5ABE9 /* TaoTestAppDelegate.m */; };
+		7213B62E14ADAE6900E5ABE9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7213B62C14ADAE6900E5ABE9 /* MainStoryboard.storyboard */; };
+		7213B63114ADAE6900E5ABE9 /* TaoTestMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213B63014ADAE6900E5ABE9 /* TaoTestMainViewController.m */; };
+		7213B63C14ADAE6A00E5ABE9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213B63B14ADAE6A00E5ABE9 /* SenTestingKit.framework */; };
+		7213B63D14ADAE6A00E5ABE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213B61A14ADAE6900E5ABE9 /* UIKit.framework */; };
+		7213B63E14ADAE6A00E5ABE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213B61C14ADAE6900E5ABE9 /* Foundation.framework */; };
+		723317B414BC3EC500BB3D57 /* PickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 723317B214BC3EC500BB3D57 /* PickersViewController.m */; };
+		723317B514BC3EC500BB3D57 /* PickersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723317B314BC3EC500BB3D57 /* PickersViewController.xib */; };
+		7256A39D14BCE3FD00E016D4 /* ImageviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7256A39B14BCE3FD00E016D4 /* ImageviewController.m */; };
+		7256A39E14BCE3FE00E016D4 /* ImageviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7256A39C14BCE3FD00E016D4 /* ImageviewController.xib */; };
+		7256A3A614BCE95400E016D4 /* scene1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7256A3A114BCE95400E016D4 /* scene1.jpg */; };
+		7256A3A714BCE95400E016D4 /* scene2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7256A3A214BCE95400E016D4 /* scene2.jpg */; };
+		7256A3A814BCE95400E016D4 /* scene3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7256A3A314BCE95400E016D4 /* scene3.jpg */; };
+		7256A3A914BCE95400E016D4 /* scene4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7256A3A414BCE95400E016D4 /* scene4.jpg */; };
+		7256A3AA14BCE95400E016D4 /* scene5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7256A3A514BCE95400E016D4 /* scene5.jpg */; };
+		72824DE314BDC57E00CF53F6 /* DailogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72824DE114BDC57E00CF53F6 /* DailogViewController.m */; };
+		72824DE414BDC57E00CF53F6 /* DailogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72824DE214BDC57E00CF53F6 /* DailogViewController.xib */; };
+		72EF891214BB83AD002F9A72 /* HelloTaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EF891014BB83AD002F9A72 /* HelloTaoViewController.m */; };
+		72EF891314BB83AD002F9A72 /* HelloTaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72EF891114BB83AD002F9A72 /* HelloTaoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7213B63F14ADAE6A00E5ABE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7213B60D14ADAE6900E5ABE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7213B61514ADAE6900E5ABE9;
+			remoteInfo = TaoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7213B61614ADAE6900E5ABE9 /* TaoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7213B61A14ADAE6900E5ABE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7213B61C14ADAE6900E5ABE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7213B61E14ADAE6900E5ABE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7213B62214ADAE6900E5ABE9 /* TaoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaoTest-Info.plist"; sourceTree = "<group>"; };
+		7213B62414ADAE6900E5ABE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7213B62614ADAE6900E5ABE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7213B62814ADAE6900E5ABE9 /* TaoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaoTest-Prefix.pch"; sourceTree = "<group>"; };
+		7213B62914ADAE6900E5ABE9 /* TaoTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaoTestAppDelegate.h; sourceTree = "<group>"; };
+		7213B62A14ADAE6900E5ABE9 /* TaoTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoTestAppDelegate.m; sourceTree = "<group>"; };
+		7213B62D14ADAE6900E5ABE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7213B62F14ADAE6900E5ABE9 /* TaoTestMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaoTestMainViewController.h; sourceTree = "<group>"; };
+		7213B63014ADAE6900E5ABE9 /* TaoTestMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoTestMainViewController.m; sourceTree = "<group>"; };
+		7213B63A14ADAE6A00E5ABE9 /* TaoTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7213B63B14ADAE6A00E5ABE9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		723317B114BC3EC400BB3D57 /* PickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickersViewController.h; sourceTree = "<group>"; };
+		723317B214BC3EC500BB3D57 /* PickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickersViewController.m; sourceTree = "<group>"; };
+		723317B314BC3EC500BB3D57 /* PickersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickersViewController.xib; sourceTree = "<group>"; };
+		7256A39A14BCE3FD00E016D4 /* ImageviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageviewController.h; sourceTree = "<group>"; };
+		7256A39B14BCE3FD00E016D4 /* ImageviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageviewController.m; sourceTree = "<group>"; };
+		7256A39C14BCE3FD00E016D4 /* ImageviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageviewController.xib; sourceTree = "<group>"; };
+		7256A3A114BCE95400E016D4 /* scene1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene1.jpg; sourceTree = "<group>"; };
+		7256A3A214BCE95400E016D4 /* scene2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene2.jpg; sourceTree = "<group>"; };
+		7256A3A314BCE95400E016D4 /* scene3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene3.jpg; sourceTree = "<group>"; };
+		7256A3A414BCE95400E016D4 /* scene4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene4.jpg; sourceTree = "<group>"; };
+		7256A3A514BCE95400E016D4 /* scene5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene5.jpg; sourceTree = "<group>"; };
+		72824DE014BDC57E00CF53F6 /* DailogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailogViewController.h; sourceTree = "<group>"; };
+		72824DE114BDC57E00CF53F6 /* DailogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailogViewController.m; sourceTree = "<group>"; };
+		72824DE214BDC57E00CF53F6 /* DailogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailogViewController.xib; sourceTree = "<group>"; };
+		72EF890F14BB83AD002F9A72 /* HelloTaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTaoViewController.h; sourceTree = "<group>"; };
+		72EF891014BB83AD002F9A72 /* HelloTaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloTaoViewController.m; sourceTree = "<group>"; };
+		72EF891114BB83AD002F9A72 /* HelloTaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloTaoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7213B61314ADAE6900E5ABE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7213B61B14ADAE6900E5ABE9 /* UIKit.framework in Frameworks */,
+				7213B61D14ADAE6900E5ABE9 /* Foundation.framework in Frameworks */,
+				7213B61F14ADAE6900E5ABE9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7213B63614ADAE6A00E5ABE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7213B63C14ADAE6A00E5ABE9 /* SenTestingKit.framework in Frameworks */,
+				7213B63D14ADAE6A00E5ABE9 /* UIKit.framework in Frameworks */,
+				7213B63E14ADAE6A00E5ABE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7213B60B14ADAE6800E5ABE9 = {
+			isa = PBXGroup;
+			children = (
+				7213B62014ADAE6900E5ABE9 /* TaoTest */,
+				7213B61914ADAE6900E5ABE9 /* Frameworks */,
+				7213B61714ADAE6900E5ABE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7213B61714ADAE6900E5ABE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7213B61614ADAE6900E5ABE9 /* TaoTest.app */,
+				7213B63A14ADAE6A00E5ABE9 /* TaoTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7213B61914ADAE6900E5ABE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7213B61A14ADAE6900E5ABE9 /* UIKit.framework */,
+				7213B61C14ADAE6900E5ABE9 /* Foundation.framework */,
+				7213B61E14ADAE6900E5ABE9 /* CoreGraphics.framework */,
+				7213B63B14ADAE6A00E5ABE9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7213B62014ADAE6900E5ABE9 /* TaoTest */ = {
+			isa = PBXGroup;
+			children = (
+				7213B62914ADAE6900E5ABE9 /* TaoTestAppDelegate.h */,
+				7213B62A14ADAE6900E5ABE9 /* TaoTestAppDelegate.m */,
+				7213B62F14ADAE6900E5ABE9 /* TaoTestMainViewController.h */,
+				7213B63014ADAE6900E5ABE9 /* TaoTestMainViewController.m */,
+				72EF890F14BB83AD002F9A72 /* HelloTaoViewController.h */,
+				72EF891014BB83AD002F9A72 /* HelloTaoViewController.m */,
+				723317B114BC3EC400BB3D57 /* PickersViewController.h */,
+				723317B214BC3EC500BB3D57 /* PickersViewController.m */,
+				7256A39A14BCE3FD00E016D4 /* ImageviewController.h */,
+				7256A39B14BCE3FD00E016D4 /* ImageviewController.m */,
+				72824DE014BDC57E00CF53F6 /* DailogViewController.h */,
+				72824DE114BDC57E00CF53F6 /* DailogViewController.m */,
+				7213B62114ADAE6900E5ABE9 /* Supporting Files */,
+				7256A3A014BCE8A600E016D4 /* Images */,
+			);
+			path = TaoTest;
+			sourceTree = "<group>";
+		};
+		7213B62114ADAE6900E5ABE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7213B62214ADAE6900E5ABE9 /* TaoTest-Info.plist */,
+				7213B62314ADAE6900E5ABE9 /* InfoPlist.strings */,
+				7213B62614ADAE6900E5ABE9 /* main.m */,
+				7213B62814ADAE6900E5ABE9 /* TaoTest-Prefix.pch */,
+				7213B62C14ADAE6900E5ABE9 /* MainStoryboard.storyboard */,
+				72EF891114BB83AD002F9A72 /* HelloTaoViewController.xib */,
+				723317B314BC3EC500BB3D57 /* PickersViewController.xib */,
+				7256A39C14BCE3FD00E016D4 /* ImageviewController.xib */,
+				72824DE214BDC57E00CF53F6 /* DailogViewController.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7256A3A014BCE8A600E016D4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7256A3A114BCE95400E016D4 /* scene1.jpg */,
+				7256A3A214BCE95400E016D4 /* scene2.jpg */,
+				7256A3A314BCE95400E016D4 /* scene3.jpg */,
+				7256A3A414BCE95400E016D4 /* scene4.jpg */,
+				7256A3A514BCE95400E016D4 /* scene5.jpg */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7213B61514ADAE6900E5ABE9 /* TaoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7213B64C14ADAE6A00E5ABE9 /* Build configuration list for PBXNativeTarget "TaoTest" */;
+			buildPhases = (
+				7213B61214ADAE6900E5ABE9 /* Sources */,
+				7213B61314ADAE6900E5ABE9 /* Frameworks */,
+				7213B61414ADAE6900E5ABE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaoTest;
+			productName = TaoTest;
+			productReference = 7213B61614ADAE6900E5ABE9 /* TaoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7213B63914ADAE6A00E5ABE9 /* TaoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7213B64F14ADAE6A00E5ABE9 /* Build configuration list for PBXNativeTarget "TaoTestTests" */;
+			buildPhases = (
+				7213B63514ADAE6A00E5ABE9 /* Sources */,
+				7213B63614ADAE6A00E5ABE9 /* Frameworks */,
+				7213B63714ADAE6A00E5ABE9 /* Resources */,
+				7213B63814ADAE6A00E5ABE9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7213B64014ADAE6A00E5ABE9 /* PBXTargetDependency */,
+			);
+			name = TaoTestTests;
+			productName = TaoTestTests;
+			productReference = 7213B63A14ADAE6A00E5ABE9 /* TaoTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7213B60D14ADAE6900E5ABE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7213B61014ADAE6900E5ABE9 /* Build configuration list for PBXProject "TaoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7213B60B14ADAE6800E5ABE9;
+			productRefGroup = 7213B61714ADAE6900E5ABE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7213B61514ADAE6900E5ABE9 /* TaoTest */,
+				7213B63914ADAE6A00E5ABE9 /* TaoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7213B61414ADAE6900E5ABE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7213B62514ADAE6900E5ABE9 /* InfoPlist.strings in Resources */,
+				7213B62E14ADAE6900E5ABE9 /* MainStoryboard.storyboard in Resources */,
+				72EF891314BB83AD002F9A72 /* HelloTaoViewController.xib in Resources */,
+				723317B514BC3EC500BB3D57 /* PickersViewController.xib in Resources */,
+				7256A39E14BCE3FE00E016D4 /* ImageviewController.xib in Resources */,
+				7256A3A614BCE95400E016D4 /* scene1.jpg in Resources */,
+				7256A3A714BCE95400E016D4 /* scene2.jpg in Resources */,
+				7256A3A814BCE95400E016D4 /* scene3.jpg in Resources */,
+				7256A3A914BCE95400E016D4 /* scene4.jpg in Resources */,
+				7256A3AA14BCE95400E016D4 /* scene5.jpg in Resources */,
+				72824DE414BDC57E00CF53F6 /* DailogViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7213B63714ADAE6A00E5ABE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7213B63814ADAE6A00E5ABE9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7213B61214ADAE6900E5ABE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7213B62714ADAE6900E5ABE9 /* main.m in Sources */,
+				7213B62B14ADAE6900E5ABE9 /* TaoTestAppDelegate.m in Sources */,
+				7213B63114ADAE6900E5ABE9 /* TaoTestMainViewController.m in Sources */,
+				72EF891214BB83AD002F9A72 /* HelloTaoViewController.m in Sources */,
+				723317B414BC3EC500BB3D57 /* PickersViewController.m in Sources */,
+				7256A39D14BCE3FD00E016D4 /* ImageviewController.m in Sources */,
+				72824DE314BDC57E00CF53F6 /* DailogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7213B63514ADAE6A00E5ABE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7213B64014ADAE6A00E5ABE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7213B61514ADAE6900E5ABE9 /* TaoTest */;
+			targetProxy = 7213B63F14ADAE6A00E5ABE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7213B62314ADAE6900E5ABE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7213B62414ADAE6900E5ABE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7213B62C14ADAE6900E5ABE9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7213B62D14ADAE6900E5ABE9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7213B64A14ADAE6A00E5ABE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SCRIPT_DRIVEN_TEST_MODE_ENABLED,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7213B64B14ADAE6A00E5ABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7213B64D14ADAE6A00E5ABE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaoTest/TaoTest-Prefix.pch";
+				INFOPLIST_FILE = "TaoTest/TaoTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7213B64E14ADAE6A00E5ABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaoTest/TaoTest-Prefix.pch";
+				INFOPLIST_FILE = "TaoTest/TaoTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7213B65014ADAE6A00E5ABE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaoTest.app/TaoTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaoTest/TaoTest-Prefix.pch";
+				INFOPLIST_FILE = "TaoTestTests/TaoTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7213B65114ADAE6A00E5ABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaoTest.app/TaoTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaoTest/TaoTest-Prefix.pch";
+				INFOPLIST_FILE = "TaoTestTests/TaoTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7213B61014ADAE6900E5ABE9 /* Build configuration list for PBXProject "TaoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7213B64A14ADAE6A00E5ABE9 /* Debug */,
+				7213B64B14ADAE6A00E5ABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7213B64C14ADAE6A00E5ABE9 /* Build configuration list for PBXNativeTarget "TaoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7213B64D14ADAE6A00E5ABE9 /* Debug */,
+				7213B64E14ADAE6A00E5ABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7213B64F14ADAE6A00E5ABE9 /* Build configuration list for PBXNativeTarget "TaoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7213B65014ADAE6A00E5ABE9 /* Debug */,
+				7213B65114ADAE6A00E5ABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7213B60D14ADAE6900E5ABE9 /* Project object */;
+}

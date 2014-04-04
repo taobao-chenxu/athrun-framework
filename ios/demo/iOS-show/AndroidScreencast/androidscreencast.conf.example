@@ -1,0 +1,15 @@
+// The tag added to produced jar (androidscreencast-xxxx.jar)
+version=DEV
+
+// The location of your android sdk installation
+android.sdk=/a/b/c/android-sdk-linux_x86-1.5_r3
+
+// JAR signing for jnlp startup
+sign.keystore=../my_keystore
+sign.storepass=xxx
+sign.keypass=yyy
+sign.alias=zzz
+
+// for auto deployement to google code "downloads" section
+gc.username=aaa@gmail.com
+gc.password=www

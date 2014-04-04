@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>topLevelPage</key>
+	<dict>
+		<key>controllerClassName</key>
+		<string>MenuViewController</string>
+		<key>pageTitle</key>
+		<string>Top Level Page</string>
+		<key>pageType</key>
+		<string>tableView</string>
+		<key>menuItems</key>
+		<array>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 1</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 2</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 3</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 4</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 5</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 6</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 7</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 8</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 9</string>
+			</dict>
+			<dict>
+				<key>menuLabel</key>
+				<string>Filler Row 10</string>
+			</dict>
+			<dict>
+				<key>linkedPageName</key>
+				<string>secondLevelPage1</string>
+				<key>menuLabel</key>
+				<string>Go to page 1</string>
+			</dict>
+			<dict>
+				<key>linkedPageName</key>
+				<string>secondLevelPage2</string>
+				<key>menuLabel</key>
+				<string>Go to page 2</string>
+			</dict>
+		</array>
+	</dict>
+	<key>secondLevelPage1</key>
+	<dict>
+		<key>pageTitle</key>
+		<string>Page 1</string>
+		<key>controllerClassName</key>
+		<string>ButtonClickViewController</string>
+		<key>pageType</key>
+		<string>view</string>
+	</dict>
+	<key>secondLevelPage2</key>
+	<dict>
+		<key>pageTitle</key>
+		<string>Page 2</string>
+		<key>controllerClassName</key>
+		<string>ButtonClickViewController</string>
+		<key>pageType</key>
+		<string>view</string>
+	</dict>
+</dict>
+</plist>

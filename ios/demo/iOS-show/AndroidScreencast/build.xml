@@ -1,0 +1,86 @@
+<project name="androidscreencast" default="jnlp" basedir=".">
+  <description>
+        Android Screen Cast build file
+  </description>
+  <taskdef classname="net.bluecow.googlecode.ant.GoogleCodeUploadTask" classpath="ant-googlecode-0.0.2.jar" name="gcupload"/>
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="bin"/>
+  <property name="dist"  location="dist"/>
+  <property file="../${ant.project.name}.conf"/>
+  <property name="mainjar" value="${ant.project.name}-${version}.jar"/>
+  <property name="launcher" value="${ant.project.name}-${version}.jnlp"/>
+  <property name="ddmlib" value="ddmlib-${version}.jar"/>
+  <property name="sdk-ddmlib" value="${android.sdk}/tools/lib/ddmlib.jar"/>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac nowarn="true" srcdir="${src}" destdir="${build}" classpath="${ddmlib}"/>
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generate the distribution" >
+ 
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+  	<mkdir dir="${dist}"/>
+    <jar jarfile="${dist}/${mainjar}" basedir="${build}"/>
+  	<copy file="${sdk-ddmlib}" tofile="${dist}/${ddmlib}"/>
+  </target>
+
+  <target name="jnlp" depends="dist">
+  	<copy tofile="${dist}/${launcher}" file="androidscreencast.jnlp"/>
+  	<replace file="${dist}/${launcher}" token="androidscreencast.jnlp" value="${launcher}"/>
+  	<replace file="${dist}/${launcher}" token="androidscreencast.jar" value="${mainjar}"/>
+  	<replace file="${dist}/${launcher}" token="ddmlib.jar" value="${ddmlib}"/>
+  	<replace file="${dist}/${launcher}" token="version=&quot;1.0&quot;" value="version=&quot;${version}&quot;"/>
+  	<signjar keystore="${sign.keystore}" storepass="${sign.storepass}" keypass="${sign.keypass}" 
+  		jar="${dist}/${mainjar}"
+  		alias="${sign.alias}"/>
+  	<signjar keystore="${sign.keystore}" storepass="${sign.storepass}" keypass="${sign.keypass}" 
+  		jar="${dist}/${ddmlib}"
+  		alias="${sign.alias}"/>
+  </target>
+	
+  <target name="gc" depends="jnlp" description="uploader to google code">
+	<gcupload 
+	        username="${gc.username}" 
+	        password="${gc.password}" 
+	        projectname="${ant.project.name}" 
+	        filename="${dist}/${mainjar}" 
+	        targetfilename="${mainjar}"
+	        summary="app version ${version}"
+	        labels="Type-Executable, OpSys-All" />
+	<gcupload 
+	        username="${gc.username}" 
+	        password="${gc.password}" 
+	        projectname="${ant.project.name}" 
+	        filename="${dist}/${ddmlib}" 
+	        targetfilename="${ddmlib}"
+	        summary="ddmlib ${version}"
+	        labels="Type-Executable, OpSys-All" />
+	<gcupload 
+	        username="${gc.username}" 
+	        password="${gc.password}" 
+	        projectname="${ant.project.name}" 
+	        filename="${dist}/${launcher}" 
+	        targetfilename="${launcher}"
+	        summary="launcher for version ${version}"
+	        labels="Featured, Type-Package, OpSys-All" />
+  </target>
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+</project>
+

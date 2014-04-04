@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>command</key>
+		<string>scrollToRow</string>
+		<key>viewXPath</key>
+		<string>//dict[key[.=&apos;className&apos; and following-sibling::string[1]/.=&apos;UITableView&apos;]]</string>
+		<key>rowIndex</key>
+		<string>10</string>
+	</dict>
+	<dict>
+		<key>command</key>
+		<string>simulateTouch</string>
+		<key>viewXPath</key>
+		<string>//dict[key[.=&apos;className&apos; and following-sibling::string[1]/.=&apos;UITableViewCell&apos;] and key[.=&apos;text&apos; and following-sibling::string[1]/.=&apos;Go to page 1&apos;]]</string>
+	</dict>
+	<dict>
+		<key>command</key>
+		<string>simulateTouch</string>
+		<key>viewXPath</key>
+		<string>//dict[key[.=&apos;className&apos; and following-sibling::string[1]/.=&apos;UIRoundedRectButton&apos;] and key[.=&apos;currentTitle&apos; and following-sibling::string[1]/.=&apos;Click me&apos;]]</string>
+	</dict>
+	<dict>
+		<key>command</key>
+		<string>checkMatchCount</string>
+		<key>viewXPath</key>
+		<string>//dict[key[.=&apos;className&apos; and following-sibling::string[1]/.=&apos;UILabel&apos;] and key[.=&apos;text&apos; and following-sibling::string[1]/.=&apos;Button clicked on: Page 1&apos;]]</string>
+		<key>matchCount</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>command</key>
+		<string>outputView</string>
+		<key>viewXPath</key>
+		<string>//dict[key[.=&apos;className&apos; and following-sibling::string[1]/.=&apos;UIWindow&apos;]]</string>
+		<key>outputPath</key>
+		<string>~/viewDescription.plist</string>
+	</dict>
+</array>
+</plist>

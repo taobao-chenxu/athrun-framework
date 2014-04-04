@@ -1,0 +1,11 @@
+Android Screencast
+Homepage : http://code.google.com/p/androidscreencast/
+
+***********************
+HOW TO BUILD THE PROJET
+***********************
+
+Copy file "andrdoiscreencast.conf.example" to parent folder.
+Rename it to "androidscreencast.conf".
+Use your text editor to tune the configuration
+Launch ant (with target dist or jnpl).

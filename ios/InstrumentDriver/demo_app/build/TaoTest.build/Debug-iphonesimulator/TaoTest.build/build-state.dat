@@ -1,0 +1,893 @@
+TTaoTest
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Info.plist TaoTest/TaoTest-Info.plist
+cProcessPCH /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch.pth TaoTest/TaoTest-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/main.o /Users/jerryding/Desktop/TaoTest/TaoTest/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestAppDelegate.o /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestMainViewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestMainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/HelloTaoViewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/PickersViewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/ImageviewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/DailogViewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBAssert.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBElement.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBOperator.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBRunner.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBTestLog.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TouchSynthesis.o /Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest normal i386
+cGenerateDSYMFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app.dSYM /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest
+cCopyStringsFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/en.lproj/InfoPlist.strings TaoTest/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/jerryding/Desktop/TaoTest/TaoTest/en.lproj/MainStoryboard.storyboard
+cCompileXIB /Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.xib
+cCompileXIB /Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.xib
+cCompileXIB /Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.xib
+cCpResource TaoTest/../scene1.jpg build/Debug-iphonesimulator/TaoTest.app/scene1.jpg
+cCpResource TaoTest/../scene2.jpg build/Debug-iphonesimulator/TaoTest.app/scene2.jpg
+cCpResource TaoTest/../scene3.jpg build/Debug-iphonesimulator/TaoTest.app/scene3.jpg
+cCpResource TaoTest/../scene4.jpg build/Debug-iphonesimulator/TaoTest.app/scene4.jpg
+cCpResource TaoTest/../scene5.jpg build/Debug-iphonesimulator/TaoTest.app/scene5.jpg
+cCompileXIB /Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.xib
+cCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Login.plist TaoTest/Login.plist
+cCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TableScroll---.plist TaoTest/TableScroll---.plist
+cCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo2_Pickers.plist TaoTest/demo2_Pickers.plist
+cCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Objects.plist TaoTest/Objects.plist
+cCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo4_systemdailog.plist TaoTest/demo4_systemdailog.plist
+cCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/ScriptIndex.plist TaoTest/ScriptIndex.plist
+cCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo1_textFeild_button_check.plist TaoTest/demo1_textFeild_button_check.plist
+cCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo3_switch.plist TaoTest/demo3_switch.plist
+cTouch /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004ED5EACB0000000000000110
+t1322642123
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/../scene1.jpg
+c000000004DF920F5000000000000B7F0
+t1308172533
+s47088
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/../scene2.jpg
+c000000004DF920F50000000000002F2F
+t1308172533
+s12079
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/../scene3.jpg
+c000000004DF920F50000000000005D33
+t1308172533
+s23859
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/../scene4.jpg
+c000000004DF920F50000000000003D06
+t1308172533
+s15622
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/../scene5.jpg
+c000000004DF920F50000000000003CA7
+t1308172533
+s15527
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.m
+c000000004F2AB7070000000000000A62
+t1328199431
+s2658
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.xib
+c000000004F2AB9EB0000000000002B77
+t1328200171
+s11127
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.m
+c000000004F2A74790000000000000776
+t1328182393
+s1910
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.xib
+c000000004F2A5F380000000000004CA7
+t1328176952
+s19623
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.m
+c000000004F14346700000000000008CA
+t1326724199
+s2250
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.xib
+c000000004F2AA8F500000000000024FA
+t1328195829
+s9466
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/Login.plist
+c000000004EDEDDF8000000000000038F
+t1323228664
+s911
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/Objects.plist
+c000000004F2AFBDE0000000000000CA9
+t1328217054
+s3241
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.m
+c000000004F1434670000000000000B8F
+t1326724199
+s2959
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.xib
+c000000004F29403C0000000000003033
+t1328103484
+s12339
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/ScriptIndex.plist
+c000000004F2AC8F00000000000000151
+t1328204016
+s337
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m
+c000000004F0ED8D90000000000000BA2
+t1326373081
+s2978
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m
+c000000004F0EBD48000000000000361E
+t1326366024
+s13854
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m
+c000000004F2FB9570000000000001988
+t1328527703
+s6536
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m
+c000000004F314C1E0000000000004E0F
+t1328630814
+s19983
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m
+c000000004F3259070000000000001C8E
+t1328699655
+s7310
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TableScroll---.plist
+c000000004F2C141A0000000000000166
+t1328288794
+s358
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTest-Prefix.pch
+c000000004EFD76E9000000000000013D
+t1325233897
+s317
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestAppDelegate.m
+c000000004F3213270000000000000A2C
+t1328681767
+s2604
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestMainViewController.m
+c000000004F2C0FD70000000000001F13
+t1328287703
+s7955
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m
+c000000004EC1D8840000000000001008
+t1321326724
+s4104
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/demo1_textFeild_button_check.plist
+c000000004F2AC8F000000000000003FB
+t1328204016
+s1019
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/demo2_Pickers.plist
+c000000004F2AC6F7000000000000024E
+t1328203511
+s590
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/demo3_switch.plist
+c000000004F2ACA590000000000000393
+t1328204377
+s915
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/demo4_systemdailog.plist
+c000000004F2BA9CC00000000000004C3
+t1328261580
+s1219
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/en.lproj/InfoPlist.strings
+c000000004EFD76E9000000000000002D
+t1325233897
+s45
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/en.lproj/MainStoryboard.storyboard
+c000000004F0DAA1D0000000000000E5C
+t1326295581
+s3676
+
+N/Users/jerryding/Desktop/TaoTest/TaoTest/main.m
+c000000004F2A98410000000000000273
+t1328191553
+s627
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app.dSYM
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/DailogViewController.nib
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/HelloTaoViewController.nib
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/ImageviewController.nib
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Info.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Login.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Objects.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/PickersViewController.nib
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/PkgInfo
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/ScriptIndex.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TableScroll---.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo1_textFeild_button_check.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo2_Pickers.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo3_switch.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo4_systemdailog.plist
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene1.jpg
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene2.jpg
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene3.jpg
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene4.jpg
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene5.jpg
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/DailogViewController.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/HelloTaoViewController.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/ImageviewController.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/PickersViewController.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBAssert.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBElement.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBOperator.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBRunner.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBTestLog.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTest.LinkFileList
+c000000004F32135B000000000000066B
+t1328681819
+s1643
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestAppDelegate.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestMainViewController.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TouchSynthesis.o
+t2
+s0
+
+N/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch.pth
+t2
+s0
+
+NTaoTest/TaoTest-Info.plist
+c000000004EFDBED700000000000004F2
+t1325252311
+s1266
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies899836db4ae2b441^b91a59db4ae2b441^---0#1#0#--18"Check dependencies36"C3B40C32-E5EA-4EDF-AF11-D522395E432C-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/DailogViewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.900566
+e350374619.966541
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/DailogViewController.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.m0da9e6db4ae2b441^d26ff7db4ae2b441^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.m0000000000000000^2771"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/DailogViewController.o TaoTest/DailogViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/DailogViewController.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/DailogViewController.o36"FB919E62-7C05-47EB-AAD0-715D91CCE9FE-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/HelloTaoViewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.803324
+e350374619.874690
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/HelloTaoViewController.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.mcac4cddb4ae2b441^c0ebdfdb4ae2b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.m0000000000000000^2781"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/HelloTaoViewController.o TaoTest/HelloTaoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/HelloTaoViewController.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/HelloTaoViewController.o36"7D82E187-549A-41CE-9CB5-851B261EF8EB-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/ImageviewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.876045
+e350374619.941374
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/ImageviewController.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.m5664e0db4ae2b441^15fef0db4ae2b441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.m0000000000000000^2766"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/ImageviewController.o TaoTest/ImageviewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/ImageviewController.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/ImageviewController.o36"EE641791-CE4B-4B2E-A740-47632CBFB449-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/PickersViewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.831008
+e350374619.899230
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/PickersViewController.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.mf5dad4db4ae2b441^f033e6db4ae2b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.m0000000000000000^2776"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/PickersViewController.o TaoTest/PickersViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/PickersViewController.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/PickersViewController.o36"EA55B815-03C7-4081-B020-B1A7CDE3CC65-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBAssert.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.942729
+e350374620.018637
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBAssert.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m:54:38:{54:38-54:48}: warning: incompatible integer to pointer conversion sending 'BOOL' (aka 'signed char') to parameter of type 'NSString *' [3]
+o     err=[err stringByAppendingFormat:expression];
+o                                      ^~~~~~~~~~
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:133:51: note: passing argument to parameter 'format' here [3]
+o - (NSString *)stringByAppendingFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1,2);
+o                                                   ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m:77:1: warning: control reaches end of non-void function [-Wreturn-type,3]
+o }
+o ^
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.md179f1db4ae2b441^d00f07dc4ae2b441^-805"/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m:54:38:{54:38-54:48}: warning: incompatible integer to pointer conversion sending 'BOOL' (aka 'signed char') to parameter of type 'NSString *' [3]     err=[err stringByAppendingFormat:expression];                                      ^~~~~~~~~~/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:133:51: note: passing argument to parameter 'format' here [3] - (NSString *)stringByAppendingFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1,2);                                                   ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m:77:1: warning: control reaches end of non-void function [-Wreturn-type,3] } ^2 warnings generated.2(21%IDEActivityLogMessage2@111"Incompatible integer to pointer conversion sending 'BOOL' (aka 'signed char') to parameter of type 'NSString *'57"Incompatible integer to pointer conversion sending 'BOOL'350374619#0#198#1(2@43"Passing argument to parameter 'format' here-350374620#298#212#-0#-23%DVTTextDocumentLocation3@165"file://localhost/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h0000000000000000^132#50#132#50#18446744073709551615#0#14"Semantic Issue--1#-3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m0000000000000000^53#37#53#37#18446744073709551615#0#14"Semantic Issue1(3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m0000000000000000^53#37#53#47#18446744073709551615#0#-2@40"Control reaches end of non-void function-350374620#651#126#-1#-3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m0000000000000000^76#0#76#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m0000000000000000^2711"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBAssert.o TaoTest/TBAssert.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBAssert.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/TBAssert.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBAssert.o36"A6E9FDE0-648E-4AA3-A443-0B8E4F9C1A8A-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBElement.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.968154
+e350374620.097588
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBElement.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:21:1: warning: control reaches end of non-void function [-Wreturn-type,3]
+o }
+o ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:189:13:{189:18-189:61}: warning: incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *' [-Wincompatible-pointer-types,3]
+o                 UIWindow *w1 = [[UIApplication sharedApplication] windows];
+o                           ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:195:3:{195:13-195:15}: warning: collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:' [3]
+o                 for (w in w1)
+o                 ^         ~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:262:26:{262:14-262:25}{262:29-262:33}: warning: comparison between pointer and integer ('NSInteger' (aka 'int') and 'void *') [3]
+o         if ( indexNumber == NULL)
+o              ~~~~~~~~~~~ ^  ~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:348:16:{348:6-348:15}{348:19-348:23}: warning: comparison between pointer and integer ('NSInteger' (aka 'int') and 'void *') [3]
+o         if (proNumber == NULL)
+o             ~~~~~~~~~ ^  ~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:376:22:{376:34-376:36}: warning: incompatible pointer types initializing 'UILabel *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]
+o             UILabel *lableTemp = vs;
+o                      ^           ~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:353:12: warning: unused variable 'boolTag' [-Wunused-variable,12]
+o         NSInteger boolTag = 0;
+o                   ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:354:12: warning: unused variable 'boolText' [-Wunused-variable,12]
+o         NSInteger boolText = 0;
+o                   ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:433:12: warning: unused variable 'str' [-Wunused-variable,12]
+o         NSString *str=NULL;
+o                   ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:434:12: warning: unused variable 'temp' [-Wunused-variable,12]
+o         NSString *temp; 
+o                   ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:541:12:{541:18-541:78}: warning: incompatible pointer types initializing 'NSString *' with an expression of type 'const char *' [-Wincompatible-pointer-types,3]
+o         NSString *str1= [[rv description] cStringUsingEncoding:NSUTF8StringEncoding];
+o                   ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o11 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m6090f8db4ae2b441^950b19dc4ae2b441^-2616"/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:21:1: warning: control reaches end of non-void function [-Wreturn-type,3] } ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:189:13:{189:18-189:61}: warning: incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *' [-Wincompatible-pointer-types,3]                 UIWindow *w1 = [[UIApplication sharedApplication] windows];                           ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:195:3:{195:13-195:15}: warning: collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:' [3]                 for (w in w1)                 ^         ~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:262:26:{262:14-262:25}{262:29-262:33}: warning: comparison between pointer and integer ('NSInteger' (aka 'int') and 'void *') [3]         if ( indexNumber == NULL)              ~~~~~~~~~~~ ^  ~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:348:16:{348:6-348:15}{348:19-348:23}: warning: comparison between pointer and integer ('NSInteger' (aka 'int') and 'void *') [3]         if (proNumber == NULL)             ~~~~~~~~~ ^  ~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:376:22:{376:34-376:36}: warning: incompatible pointer types initializing 'UILabel *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]             UILabel *lableTemp = vs;                      ^           ~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:353:12: warning: unused variable 'boolTag' [-Wunused-variable,12]         NSInteger boolTag = 0;                   ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:354:12: warning: unused variable 'boolText' [-Wunused-variable,12]         NSInteger boolText = 0;                   ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:433:12: warning: unused variable 'str' [-Wunused-variable,12]         NSString *str=NULL;                   ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:434:12: warning: unused variable 'temp' [-Wunused-variable,12]         NSString *temp;                    ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m:541:12:{541:18-541:78}: warning: incompatible pointer types initializing 'NSString *' with an expression of type 'const char *' [-Wincompatible-pointer-types,3]         NSString *str1= [[rv description] cStringUsingEncoding:NSUTF8StringEncoding];                   ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~11 warnings generated.11(21%IDEActivityLogMessage2@40"Control reaches end of non-void function-350374620#0#127#-1#-23%DVTTextDocumentLocation3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^20#0#20#0#18446744073709551615#0#14"Semantic Issue--2@91"Incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *'-350374620#133#211#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^188#12#188#12#18446744073709551615#0#14"Semantic Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^188#17#188#60#18446744073709551615#0#-2@103"Collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:'-350374620#497#193#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^194#2#194#2#18446744073709551615#0#14"Semantic Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^194#12#194#14#18446744073709551615#0#-2@77"Comparison between pointer and integer ('NSInteger' (aka 'int') and 'void *')38"Comparison between pointer and integer350374620#751#183#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^261#25#261#25#18446744073709551615#0#14"Semantic Issue2(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^261#13#261#24#18446744073709551615#0#3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^261#28#261#32#18446744073709551615#0#-2@77"Comparison between pointer and integer ('NSInteger' (aka 'int') and 'void *')38"Comparison between pointer and integer350374620#1003#182#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^347#15#347#15#18446744073709551615#0#14"Semantic Issue2(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^347#5#347#14#18446744073709551615#0#3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^347#18#347#22#18446744073709551615#0#-2@89"Incompatible pointer types initializing 'UILabel *' with an expression of type 'UIView *'-350374620#1248#209#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^375#21#375#21#18446744073709551615#0#14"Semantic Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^375#33#375#35#18446744073709551615#0#-2@25"Unused variable 'boolTag'-350374620#1532#119#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^352#11#352#11#18446744073709551615#0#19"Unused Entity Issue--2@26"Unused variable 'boolText'-350374620#1704#120#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^353#11#353#11#18446744073709551615#0#19"Unused Entity Issue--2@21"Unused variable 'str'-350374620#1878#115#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^432#11#432#11#18446744073709551615#0#19"Unused Entity Issue--2@22"Unused variable 'temp'-350374620#2043#116#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^433#11#433#11#18446744073709551615#0#19"Unused Entity Issue--2@94"Incompatible pointer types initializing 'NSString *' with an expression of type 'const char *'-350374620#2206#214#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^540#11#540#11#18446744073709551615#0#14"Semantic Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^540#17#540#77#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m0000000000000000^2716"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBElement.o TaoTest/TBElement.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBElement.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/TBElement.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBElement.o36"D1C09628-70C5-4FF2-8440-22C8E9AA1002-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBOperator.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374620.026751
+e350374620.101249
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBOperator.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:63:14:{63:19-63:25}: warning: incompatible pointer types initializing 'UITextView *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]
+o         UITextView *tv = object;
+o                     ^    ~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:73:12:{73:17-73:60}: warning: incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *' [-Wincompatible-pointer-types,3]
+o         UIWindow *mw = [[UIApplication sharedApplication] windows];
+o                   ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:77:2:{77:16-77:18}: warning: collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:' [3]
+o         for (tempw in mw) 
+o         ^             ~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:121:22:{121:30-121:36}: warning: incompatible pointer types initializing 'UITableView *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]
+o         UITableView *tview = object;
+o                      ^       ~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:131:26:{131:28-131:30}: warning: incompatible pointer types assigning to 'UITableViewCell *' from 'UIView *' [-Wincompatible-pointer-types,3]
+o                     cell = bv;
+o                          ^ ~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:120:19: warning: unused variable 'temp' [-Wunused-variable,12]
+o         NSInteger temp = 1;
+o                   ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:146:23:{146:31-146:37}: warning: incompatible pointer types initializing 'UIScrollView *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]
+o         UIScrollView *sview = object;
+o                       ^       ~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:245:12:{245:17-245:23}: warning: incompatible pointer types initializing 'UISwitch *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]
+o         UISwitch *sv = object;
+o                   ^    ~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:16:1: warning: incomplete implementation [-Wincomplete-implementation,3]
+o @implementation TBOperator
+o ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.h:48:1: note: method definition for 'checkProperties:expect:' not found [3]
+o +(bool)checkProperties:(UIView *)object expect:(NSString *)expectString;
+o ^
+o9 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.mb1f706dc4ae2b441^dff919dc4ae2b441^-2534"/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:63:14:{63:19-63:25}: warning: incompatible pointer types initializing 'UITextView *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]         UITextView *tv = object;                     ^    ~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:73:12:{73:17-73:60}: warning: incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *' [-Wincompatible-pointer-types,3]         UIWindow *mw = [[UIApplication sharedApplication] windows];                   ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:77:2:{77:16-77:18}: warning: collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:' [3]         for (tempw in mw)          ^             ~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:121:22:{121:30-121:36}: warning: incompatible pointer types initializing 'UITableView *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]         UITableView *tview = object;                      ^       ~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:131:26:{131:28-131:30}: warning: incompatible pointer types assigning to 'UITableViewCell *' from 'UIView *' [-Wincompatible-pointer-types,3]                     cell = bv;                          ^ ~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:120:19: warning: unused variable 'temp' [-Wunused-variable,12]         NSInteger temp = 1;                   ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:146:23:{146:31-146:37}: warning: incompatible pointer types initializing 'UIScrollView *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]         UIScrollView *sview = object;                       ^       ~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:245:12:{245:17-245:23}: warning: incompatible pointer types initializing 'UISwitch *' with an expression of type 'UIView *' [-Wincompatible-pointer-types,3]         UISwitch *sv = object;                   ^    ~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m:16:1: warning: incomplete implementation [-Wincomplete-implementation,3] @implementation TBOperator ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.h:48:1: note: method definition for 'checkProperties:expect:' not found [3] +(bool)checkProperties:(UIView *)object expect:(NSString *)expectString; ^9 warnings generated.9(21%IDEActivityLogMessage2@92"Incompatible pointer types initializing 'UITextView *' with an expression of type 'UIView *'-350374620#0#210#-1#-23%DVTTextDocumentLocation3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^62#13#62#13#18446744073709551615#0#14"Semantic Issue1(3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^62#18#62#24#18446744073709551615#0#-2@91"Incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *'-350374620#277#209#-1#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^72#11#72#11#18446744073709551615#0#14"Semantic Issue1(3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^72#16#72#59#18446744073709551615#0#-2@103"Collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:'-350374620#623#191#-1#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^76#1#76#1#18446744073709551615#0#14"Semantic Issue1(3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^76#15#76#17#18446744073709551615#0#-2@93"Incompatible pointer types initializing 'UITableView *' with an expression of type 'UIView *'-350374620#868#214#-1#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^120#21#120#21#18446744073709551615#0#14"Semantic Issue1(3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^120#29#120#35#18446744073709551615#0#-2@75"Incompatible pointer types assigning to 'UITableViewCell *' from 'UIView *'-350374620#1157#196#-1#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^130#25#130#25#18446744073709551615#0#14"Semantic Issue1(3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^130#27#130#29#18446744073709551615#0#-2@22"Unused variable 'temp'-350374620#1416#117#-1#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^119#18#119#18#18446744073709551615#0#19"Unused Entity Issue--2@94"Incompatible pointer types initializing 'UIScrollView *' with an expression of type 'UIView *'-350374620#1583#215#-1#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^145#22#145#22#18446744073709551615#0#14"Semantic Issue1(3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^145#30#145#36#18446744073709551615#0#-2@90"Incompatible pointer types initializing 'UISwitch *' with an expression of type 'UIView *'-350374620#1875#211#-1#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^244#11#244#11#18446744073709551615#0#14"Semantic Issue1(3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^244#16#244#22#18446744073709551615#0#-2@25"Incomplete implementation-350374620#2149#127#1(2@57"Method definition for 'checkProperties:expect:' not found-350374620#2307#128#-0#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.h0000000000000000^47#0#47#0#18446744073709551615#0#14"Semantic Issue--1#-3@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^15#0#15#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@69"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m0000000000000000^2721"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBOperator.o TaoTest/TBOperator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBOperator.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/TBOperator.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBOperator.o36"71CD9CAE-FD60-41B7-893D-2D315DF7371F-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBRunner.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374620.099139
+e350374620.230378
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBRunner.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:228:20: warning: 'NSArray' may not respond to 'objectForKey:' [3]
+o                             if ([arrConsts objectForKey:varName])
+o                                  ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:230:40: warning: 'NSArray' may not respond to 'objectForKey:' [3]
+o                         valueString = [arrConsts objectForKey:varName];
+o                                        ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:328:12:{328:12-328:89}: warning: class method '+checkProperties:propert:expect:' not found (return type defaults to 'id') [3]
+o                             if ([TBOperator checkProperties:viewTarget propert:Cpropert expect:CexpectString])
+o                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:124:16: warning: unused variable 'debug' [-Wunused-variable,12]
+o             NSString *debug = @"";
+o                       ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:125:16: warning: unused variable 'warn' [-Wunused-variable,12]
+o             NSString *warn = @"";
+o                       ^
+o5 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.ma18419dc4ae2b441^c9013bdc4ae2b441^-1229"/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:228:20: warning: 'NSArray' may not respond to 'objectForKey:' [3]                             if ([arrConsts objectForKey:varName])                                  ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:230:40: warning: 'NSArray' may not respond to 'objectForKey:' [3]                         valueString = [arrConsts objectForKey:varName];                                        ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:328:12:{328:12-328:89}: warning: class method '+checkProperties:propert:expect:' not found (return type defaults to 'id') [3]                             if ([TBOperator checkProperties:viewTarget propert:Cpropert expect:CexpectString])                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:124:16: warning: unused variable 'debug' [-Wunused-variable,12]             NSString *debug = @"";                       ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m:125:16: warning: unused variable 'warn' [-Wunused-variable,12]             NSString *warn = @"";                       ^5 warnings generated.5(21%IDEActivityLogMessage2@44"'NSArray' may not respond to 'objectForKey:'-350374620#0#118#-1#-23%DVTTextDocumentLocation3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m0000000000000000^227#19#227#19#18446744073709551615#0#14"Semantic Issue--2@44"'NSArray' may not respond to 'objectForKey:'-350374620#221#118#-1#-3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m0000000000000000^229#39#229#39#18446744073709551615#0#14"Semantic Issue--2@88"Class method '+checkProperties:propert:expect:' not found (return type defaults to 'id')57"Class method '+checkProperties:propert:expect:' not found350374620#454#178#-1#-3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m0000000000000000^327#11#327#11#18446744073709551615#0#14"Semantic Issue1(3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m0000000000000000^327#11#327#88#18446744073709551615#0#-2@23"Unused variable 'debug'-350374620#855#116#-1#-3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m0000000000000000^123#15#123#15#18446744073709551615#0#19"Unused Entity Issue--2@22"Unused variable 'warn'-350374620#1032#115#-1#-3@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m0000000000000000^124#15#124#15#18446744073709551615#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@67"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m0000000000000000^2711"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBRunner.o TaoTest/TBRunner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBRunner.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/TBRunner.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBRunner.o36"55BDA42B-4824-44FF-A17C-86EDAD3B4ED2-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBTestLog.o /Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374620.102379
+e350374620.193155
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBTestLog.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:49:9:{49:9-49:64}: warning: instance method '-renderInContext:' not found (return type defaults to 'id') [3]
+o         [v.layer renderInContext:UIGraphicsGetCurrentContext()];
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:64:19:{64:23-64:66}: warning: incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *' [-Wincompatible-pointer-types,3]
+o         UIWindow *w = [[UIApplication sharedApplication] windows];
+o                   ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:69:9:{69:22-69:23}: warning: collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:' [3]
+o         for (subW in w) 
+o         ^            ~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:80:13:{80:13-80:71}: warning: instance method '-renderInContext:' not found (return type defaults to 'id') [3]
+o             [subW.layer renderInContext:UIGraphicsGetCurrentContext()];
+o             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:158:7:{158:7-158:8}: warning: expression result unused [-Wunused-value,12]
+o         for (j; j<=[infoArray count]-1; j++) 
+o              ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:178:18: warning: 'UIView' may not respond to 'text' [3]
+o                 NSString *l = [v text];
+o                                ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:178:18: warning: 'text' is deprecated [-Wdeprecated-declarations,8]
+o7 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.mf4511adc4ae2b441^3fa932dc4ae2b441^-1703"/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:49:9:{49:9-49:64}: warning: instance method '-renderInContext:' not found (return type defaults to 'id') [3]         [v.layer renderInContext:UIGraphicsGetCurrentContext()];         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:64:19:{64:23-64:66}: warning: incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *' [-Wincompatible-pointer-types,3]         UIWindow *w = [[UIApplication sharedApplication] windows];                   ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:69:9:{69:22-69:23}: warning: collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:' [3]         for (subW in w)          ^            ~/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:80:13:{80:13-80:71}: warning: instance method '-renderInContext:' not found (return type defaults to 'id') [3]             [subW.layer renderInContext:UIGraphicsGetCurrentContext()];             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:158:7:{158:7-158:8}: warning: expression result unused [-Wunused-value,12]         for (j; j<=[infoArray count]-1; j++)               ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:178:18: warning: 'UIView' may not respond to 'text' [3]                 NSString *l = [v text];                                ^/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m:178:18: warning: 'text' is deprecated [-Wdeprecated-declarations,8]7 warnings generated.7(21%IDEActivityLogMessage2@76"Instance method '-renderInContext:' not found (return type defaults to 'id')45"Instance method '-renderInContext:' not found350374620#0#162#-1#-23%DVTTextDocumentLocation3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^48#8#48#8#18446744073709551615#0#14"Semantic Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^48#8#48#63#18446744073709551615#0#-2@91"Incompatible pointer types initializing 'UIWindow *' with an expression of type 'NSArray *'-350374620#293#208#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^63#18#63#18#18446744073709551615#0#14"Semantic Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^63#22#63#65#18446744073709551615#0#-2@103"Collection expression type 'UIWindow *' may not respond to 'countByEnumeratingWithState:objects:count:'-350374620#636#190#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^68#8#68#8#18446744073709551615#0#14"Semantic Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^68#21#68#22#18446744073709551615#0#-2@76"Instance method '-renderInContext:' not found (return type defaults to 'id')45"Instance method '-renderInContext:' not found350374620#876#164#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^79#12#79#12#18446744073709551615#0#14"Semantic Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^79#12#79#70#18446744073709551615#0#-2@24"Expression result unused-350374620#1185#128#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^157#6#157#6#18446744073709551615#0#19"Unused Entity Issue1(3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^157#6#157#7#18446744073709551615#0#-2@34"'UIView' may not respond to 'text'-350374620#1376#109#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^177#17#177#17#18446744073709551615#0#14"Semantic Issue--2@20"'text' is deprecated-350374620#1560#121#-1#-3@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^177#17#177#17#18446744073709551615#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m0000000000000000^2716"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBTestLog.o TaoTest/TBTestLog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBTestLog.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/TBTestLog.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TBTestLog.o36"9E64D4CB-B059-493C-A90E-FFF5FE37A103-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestAppDelegate.o /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.723822
+e350374619.802124
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestAppDelegate.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestAppDelegate.m9b76b9db4ae2b441^1c61cddb4ae2b441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestAppDelegate.m0000000000000000^2761"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestAppDelegate.o TaoTest/TaoTestAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestAppDelegate.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestAppDelegate.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestAppDelegate.o36"61A7B167-6295-44B1-9B0F-64B6F843899B-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestMainViewController.o /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestMainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.762063
+e350374619.829655
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestMainViewController.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestMainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestMainViewController.m9c36c3db4ae2b441^4564d4db4ae2b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestMainViewController.m0000000000000000^2796"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestMainViewController.o TaoTest/TaoTestMainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestMainViewController.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTestMainViewController.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTestMainViewController.o36"3E2B2577-537E-4F3B-BE6C-BB785E5B93B5-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TouchSynthesis.o /Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374620.194417
+e350374620.255049
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TouchSynthesis.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m:164:28: warning: implicitly declaring C library function 'objc_getClass' with type 'id (const char *)' [3]
+o         Class touchesEventClass = objc_getClass("UITouchesEvent");
+o                                   ^
+o/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m:164:28: note: please include the header <objc/runtime.h> or explicitly provide a declaration for 'objc_getClass' [3]
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.ma7e731dc4ae2b441^ad4b41dc4ae2b441^-466"/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m:164:28: warning: implicitly declaring C library function 'objc_getClass' with type 'id (const char *)' [3]         Class touchesEventClass = objc_getClass("UITouchesEvent");                                   ^/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m:164:28: note: please include the header <objc/runtime.h> or explicitly provide a declaration for 'objc_getClass' [3]1 warning generated.1(21%IDEActivityLogMessage2@85"Implicitly declaring C library function 'objc_getClass' with type 'id (const char *)'69"Implicitly declaring C library function 'objc_getClass' with type 'id350374620#0#165#1(2@98"Please include the header <objc/runtime.h> or explicitly provide a declaration for 'objc_getClass'-350374620#270#175#-0#-23%DVTTextDocumentLocation3@73"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m0000000000000000^163#27#163#27#18446744073709551615#0#14"Semantic Issue--1#-3@73"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m0000000000000000^163#27#163#27#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@73"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m0000000000000000^2741"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TouchSynthesis.o TaoTest/TouchSynthesis.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TouchSynthesis.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/TouchSynthesis.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TouchSynthesis.o36"E8BEF85A-B932-427D-9E1E-E5A44DC2D7AB-
+
+CCompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/main.o /Users/jerryding/Desktop/TaoTest/TaoTest/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.723737
+e350374619.755123
+r1
+xCompileC
+xbuild/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/main.o
+x/Users/jerryding/Desktop/TaoTest/TaoTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/jerryding/Desktop/TaoTest/TaoTest/main.mb873b9db4ae2b441^fdf9c2db4ae2b441^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/main.m0000000000000000^2691"CompileC build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/main.o TaoTest/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -include /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch -MMD -MT dependencies -MF /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/main.d -c /Users/jerryding/Desktop/TaoTest/TaoTest/main.m -o /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/main.o36"A299CDB5-F609-4C6E-92FA-2CAFBE7F625E-
+
+CCompileStoryboard /Users/jerryding/Desktop/TaoTest/TaoTest/en.lproj/MainStoryboard.storyboard
+s350374620.478493
+e350374621.665413
+r1
+xCompileStoryboard
+x/Users/jerryding/Desktop/TaoTest/TaoTest/en.lproj/MainStoryboard.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"CompileStoryboard TaoTest/en.lproj/MainStoryboard.storyboard9a947adc4ae2b441^7d59aadd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/en.lproj/MainStoryboard.storyboard0000000000000000^834"CompileStoryboard TaoTest/en.lproj/MainStoryboard.storyboard    cd /Users/jerryding/Desktop/TaoTest    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/en.lproj/MainStoryboard.storyboardc /Users/jerryding/Desktop/TaoTest/TaoTest/en.lproj/MainStoryboard.storyboard --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"43C55F40-814E-4E41-9CC9-9D995DD31A55-
+
+CCompileXIB /Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.xib
+s350374621.714376
+e350374621.754444
+r1
+xCompileXIB
+x/Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compiling /Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.xibc2f7b6dd4ae2b441^a52ec1dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.xib0000000000000000^795"CompileXIB TaoTest/DailogViewController.xib    cd /Users/jerryding/Desktop/TaoTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/DailogViewController.nib /Users/jerryding/Desktop/TaoTest/TaoTest/DailogViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"9AB653C5-8BF9-4861-8384-5D53562FB23C-
+
+CCompileXIB /Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.xib
+s350374620.491506
+e350374621.569759
+r1
+xCompileXIB
+x/Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.xibc4e87ddc4ae2b441^10e791dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.xib0000000000000000^801"CompileXIB TaoTest/HelloTaoViewController.xib    cd /Users/jerryding/Desktop/TaoTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/HelloTaoViewController.nib /Users/jerryding/Desktop/TaoTest/TaoTest/HelloTaoViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"DD87E40B-EF5A-498C-8012-9DDB4AD58291-
+
+CCompileXIB /Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.xib
+s350374621.666712
+e350374621.795466
+r1
+xCompileXIB
+x/Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compiling /Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.xib3bc5aadd4ae2b441^5da9cbdd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.xib0000000000000000^792"CompileXIB TaoTest/ImageviewController.xib    cd /Users/jerryding/Desktop/TaoTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/ImageviewController.nib /Users/jerryding/Desktop/TaoTest/TaoTest/ImageviewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"8D24247C-59B0-4218-B8C0-E80675847D14-
+
+CCompileXIB /Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.xib
+s350374621.576867
+e350374621.685432
+r1
+xCompileXIB
+x/Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compiling /Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.xib2bc295dd4ae2b441^ab78afdd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.xib0000000000000000^798"CompileXIB TaoTest/PickersViewController.xib    cd /Users/jerryding/Desktop/TaoTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/PickersViewController.nib /Users/jerryding/Desktop/TaoTest/TaoTest/PickersViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"80789C0A-7BA8-4910-81B5-508BA65FCFBE-
+
+CCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Login.plist TaoTest/Login.plist
+s350374621.755824
+e350374621.758680
+r1
+xCopyPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Login.plist
+xTaoTest/Login.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy TaoTest/Login.plistc493c1dd4ae2b441^b938c2dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/Login.plist0000000000000000^515"CopyPlistFile build/Debug-iphonesimulator/TaoTest.app/Login.plist TaoTest/Login.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyPlist --convert binary1 --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app -- TaoTest/Login.plist36"3A48A657-2322-47B8-8CF2-B3120FFBAB56-
+
+CCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Objects.plist TaoTest/Objects.plist
+s350374621.767761
+e350374621.770936
+r1
+xCopyPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Objects.plist
+xTaoTest/Objects.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Copy TaoTest/Objects.plista1a0c4dd4ae2b441^6b62c5dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/Objects.plist0000000000000000^521"CopyPlistFile build/Debug-iphonesimulator/TaoTest.app/Objects.plist TaoTest/Objects.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyPlist --convert binary1 --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app -- TaoTest/Objects.plist36"F5EF87E2-02A6-4A94-AEAC-E13BD48A5BCC-
+
+CCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/ScriptIndex.plist TaoTest/ScriptIndex.plist
+s350374621.776235
+e350374621.779027
+r1
+xCopyPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/ScriptIndex.plist
+xTaoTest/ScriptIndex.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy TaoTest/ScriptIndex.plistc9cbc6dd4ae2b441^fbc9c8dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/ScriptIndex.plist0000000000000000^533"CopyPlistFile build/Debug-iphonesimulator/TaoTest.app/ScriptIndex.plist TaoTest/ScriptIndex.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyPlist --convert binary1 --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app -- TaoTest/ScriptIndex.plist36"6E588252-84D8-41F8-A438-25720594FF8F-
+
+CCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TableScroll---.plist TaoTest/TableScroll---.plist
+s350374621.759839
+e350374621.762644
+r1
+xCopyPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TableScroll---.plist
+xTaoTest/TableScroll---.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy TaoTest/TableScroll---.plist3d9ac2dd4ae2b441^c53cc3dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TableScroll---.plist0000000000000000^542"CopyPlistFile build/Debug-iphonesimulator/TaoTest.app/TableScroll---.plist TaoTest/TableScroll---.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyPlist --convert binary1 --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app -- TaoTest/TableScroll---.plist36"75E38E6E-B44B-4532-9224-B209C8E58E1A-
+
+CCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo1_textFeild_button_check.plist TaoTest/demo1_textFeild_button_check.plist
+s350374621.780197
+e350374621.785805
+r1
+xCopyPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo1_textFeild_button_check.plist
+xTaoTest/demo1_textFeild_button_check.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy TaoTest/demo1_textFeild_button_check.plist8dd0c7dd4ae2b441^2847c9dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/demo1_textFeild_button_check.plist0000000000000000^584"CopyPlistFile build/Debug-iphonesimulator/TaoTest.app/demo1_textFeild_button_check.plist TaoTest/demo1_textFeild_button_check.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyPlist --convert binary1 --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app -- TaoTest/demo1_textFeild_button_check.plist36"4A6BD20A-CD48-4EEE-A7EB-999462B74B73-
+
+CCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo2_Pickers.plist TaoTest/demo2_Pickers.plist
+s350374621.763803
+e350374621.766601
+r1
+xCopyPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo2_Pickers.plist
+xTaoTest/demo2_Pickers.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy TaoTest/demo2_Pickers.plist639cc3dd4ae2b441^6346c4dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/demo2_Pickers.plist0000000000000000^539"CopyPlistFile build/Debug-iphonesimulator/TaoTest.app/demo2_Pickers.plist TaoTest/demo2_Pickers.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyPlist --convert binary1 --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app -- TaoTest/demo2_Pickers.plist36"78B516AC-4398-483B-AE3D-F62CE5480606-
+
+CCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo3_switch.plist TaoTest/demo3_switch.plist
+s350374621.786947
+e350374621.789729
+r1
+xCopyPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo3_switch.plist
+xTaoTest/demo3_switch.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy TaoTest/demo3_switch.plistf089c9dd4ae2b441^525fcadd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/demo3_switch.plist0000000000000000^536"CopyPlistFile build/Debug-iphonesimulator/TaoTest.app/demo3_switch.plist TaoTest/demo3_switch.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyPlist --convert binary1 --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app -- TaoTest/demo3_switch.plist36"26222771-9865-496C-B97B-D9154C5938C8-
+
+CCopyPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo4_systemdailog.plist TaoTest/demo4_systemdailog.plist
+s350374621.772084
+e350374621.775093
+r1
+xCopyPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/demo4_systemdailog.plist
+xTaoTest/demo4_systemdailog.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy TaoTest/demo4_systemdailog.plist83c1c5dd4ae2b441^8f6cc6dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/demo4_systemdailog.plist0000000000000000^554"CopyPlistFile build/Debug-iphonesimulator/TaoTest.app/demo4_systemdailog.plist TaoTest/demo4_systemdailog.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyPlist --convert binary1 --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app -- TaoTest/demo4_systemdailog.plist36"970012FA-4FE0-44D8-A2DE-F3D4C8A2F841-
+
+CCopyStringsFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/en.lproj/InfoPlist.strings TaoTest/en.lproj/InfoPlist.strings
+s350374620.478412
+e350374620.490342
+r1
+xCopyStringsFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/en.lproj/InfoPlist.strings
+xTaoTest/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy TaoTest/en.lproj/InfoPlist.stringsf7927adc4ae2b441^e5b67ddc4ae2b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/en.lproj/InfoPlist.strings0000000000000000^612"CopyStringsFile build/Debug-iphonesimulator/TaoTest.app/en.lproj/InfoPlist.strings TaoTest/en.lproj/InfoPlist.strings    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/en.lproj -- TaoTest/en.lproj/InfoPlist.strings36"5C224735-0E61-4E4A-8721-AC6B089DB848-
+
+CCpResource TaoTest/../scene1.jpg build/Debug-iphonesimulator/TaoTest.app/scene1.jpg
+s350374621.686600
+e350374621.691033
+r1
+xCpResource
+xTaoTest/../scene1.jpg
+xbuild/Debug-iphonesimulator/TaoTest.app/scene1.jpg
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TaoTest.app/scene1.jpg3cdbafdd4ae2b441^3811b1dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene1.jpg00f8d416dcffdf42^608"CpResource TaoTest/../scene1.jpg build/Debug-iphonesimulator/TaoTest.app/scene1.jpg    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jerryding/Desktop/TaoTest/TaoTest/../scene1.jpg /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app36"34365C17-FC26-49EB-B5E5-F0832D51B378-
+
+CCpResource TaoTest/../scene2.jpg build/Debug-iphonesimulator/TaoTest.app/scene2.jpg
+s350374621.692278
+e350374621.696512
+r1
+xCpResource
+xTaoTest/../scene2.jpg
+xbuild/Debug-iphonesimulator/TaoTest.app/scene2.jpg
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TaoTest.app/scene2.jpg344cb1dd4ae2b441^ef56b2dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene2.jpg00f8d416dcffdf42^608"CpResource TaoTest/../scene2.jpg build/Debug-iphonesimulator/TaoTest.app/scene2.jpg    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jerryding/Desktop/TaoTest/TaoTest/../scene2.jpg /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app36"479FA96E-7BCD-459D-85D5-7AE489D593DC-
+
+CCpResource TaoTest/../scene3.jpg build/Debug-iphonesimulator/TaoTest.app/scene3.jpg
+s350374621.697678
+e350374621.705857
+r1
+xCpResource
+xTaoTest/../scene3.jpg
+xbuild/Debug-iphonesimulator/TaoTest.app/scene3.jpg
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TaoTest.app/scene3.jpg5caeb2dd4ae2b441^17bcb4dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene3.jpg00f8d416dcffdf42^608"CpResource TaoTest/../scene3.jpg build/Debug-iphonesimulator/TaoTest.app/scene3.jpg    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jerryding/Desktop/TaoTest/TaoTest/../scene3.jpg /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app36"1B651FBC-69FB-47DE-B777-08CCCFCB917D-
+
+CCpResource TaoTest/../scene4.jpg build/Debug-iphonesimulator/TaoTest.app/scene4.jpg
+s350374621.707046
+e350374621.709567
+r1
+xCpResource
+xTaoTest/../scene4.jpg
+xbuild/Debug-iphonesimulator/TaoTest.app/scene4.jpg
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TaoTest.app/scene4.jpge813b5dd4ae2b441^be6cb7dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene4.jpg00f8d416dcffdf42^608"CpResource TaoTest/../scene4.jpg build/Debug-iphonesimulator/TaoTest.app/scene4.jpg    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jerryding/Desktop/TaoTest/TaoTest/../scene4.jpg /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app36"3D8CC43F-42C9-4FD7-A2DB-D10F89528C00-
+
+CCpResource TaoTest/../scene5.jpg build/Debug-iphonesimulator/TaoTest.app/scene5.jpg
+s350374621.710691
+e350374621.713248
+r1
+xCpResource
+xTaoTest/../scene5.jpg
+xbuild/Debug-iphonesimulator/TaoTest.app/scene5.jpg
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TaoTest.app/scene5.jpg4206b6dd4ae2b441^b073b7dd4ae2b441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/scene5.jpg00f8d416dcffdf42^608"CpResource TaoTest/../scene5.jpg build/Debug-iphonesimulator/TaoTest.app/scene5.jpg    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jerryding/Desktop/TaoTest/TaoTest/../scene5.jpg /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app36"56708050-FBB9-4C1B-BB53-D7D645FFD558-
+
+CGenerateDSYMFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app.dSYM /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest
+s350374620.432884
+e350374620.474842
+r1
+xGenerateDSYMFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app.dSYM
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generating /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app.dSYMc8ea6edc4ae2b441^f9a279dc4ae2b441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app.dSYM00f8d416dcffdf42^588"GenerateDSYMFile build/Debug-iphonesimulator/TaoTest.app.dSYM build/Debug-iphonesimulator/TaoTest.app/TaoTest    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/usr/bin/dsymutil /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest -o /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app.dSYM36"13EF074D-0138-4CAF-B1F1-8B6C5AACD37A-
+
+CLd /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest normal i386
+s350374620.256615
+e350374620.431565
+r1
+xLd
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Link /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest30d441dc4ae2b441^7c7c6edc4ae2b441^---0#0#0#--1114"Ld build/Debug-iphonesimulator/TaoTest.app/TaoTest normal i386    cd /Users/jerryding/Desktop/TaoTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -filelist /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/Objects-normal/i386/TaoTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/TaoTest36"F980A57B-813B-44D9-B67B-F9EB35667D54-
+
+CProcessInfoPlistFile /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Info.plist TaoTest/TaoTest-Info.plist
+s350374619.359612
+e350374619.365212
+r1
+xProcessInfoPlistFile
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Info.plist
+xTaoTest/TaoTest-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process TaoTest/TaoTest-Info.plist3b385cdb4ae2b441^b6855fdb4ae2b441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTest-Info.plist0000000000000000^681"ProcessInfoPlistFile build/Debug-iphonesimulator/TaoTest.app/Info.plist TaoTest/TaoTest-Info.plist    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    builtin-infoPlistUtility TaoTest/TaoTest-Info.plist -genpkginfo /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app/Info.plist36"8D71433A-F84A-4DFE-97F5-2BFC12215B93-
+
+CProcessPCH /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch.pth TaoTest/TaoTest-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350374619.367956
+e350374619.721584
+r1
+xProcessPCH
+x/var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch.pth
+xTaoTest/TaoTest-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TaoTest/TaoTest-Prefix.pch30635edb4ae2b441^88b9b8db4ae2b441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/jerryding/Desktop/TaoTest/TaoTest/TaoTest-Prefix.pch0000000000000000^2732"ProcessPCH /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch.pth TaoTest/TaoTest-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jerryding/Desktop/TaoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-generated-files.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-own-target-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-all-target-headers.hmap -iquote /Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/TaoTest-project-headers.hmap -I/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/include -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources/i386 -I/Users/jerryding/Desktop/TaoTest/build/TaoTest.build/Debug-iphonesimulator/TaoTest.build/DerivedSources -F/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator -c /Users/jerryding/Desktop/TaoTest/TaoTest/TaoTest-Prefix.pch -o /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/Ml/Ml7ODPiRHJW9gx068BcvaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TaoTest-Prefix-gojfgkcurpsqjuejqenkjxgflilf/TaoTest-Prefix.pch.d36"1DA44B18-59F3-44ED-A145-4AA97AFE25CD-
+
+CTouch /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app
+s350374621.798741
+e350374621.806028
+r1
+xTouch
+x/Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.appc18dccdd4ae2b441^855fcedd4ae2b441^---0#0#0#--425"Touch build/Debug-iphonesimulator/TaoTest.app    cd /Users/jerryding/Desktop/TaoTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/jerryding/develop_tools/android-sdk-mac_x86/platform-tools:/Developer/usr/bin"    /usr/bin/touch -c /Users/jerryding/Desktop/TaoTest/build/Debug-iphonesimulator/TaoTest.app36"35959E05-0FF5-4539-88AC-1F2C15B6F658-
+
