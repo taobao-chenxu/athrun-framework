@@ -51,11 +51,12 @@
     	
         <javac
             destdir="${classes.dir}"
-            source="1.6"
+            source="1.7"
             srcdir="${src.dir}"
-            target="1.6" 
+            target="1.7" 
 			debug="true"
 			debuglevel="lines,vars,source"
+			includeAntRuntime="false"
 			>
 
             <classpath refid="compile.classpath" />
@@ -76,11 +77,11 @@
             destfile="${basedir}/${ant.project.name}.jar" >
             <zipfileset
                 excludes="META-INF/*.SF"
-                src="${lib.dir}/android-logging-log4j-1.0.2.jar" />
+                src="${lib.dir}/android-logging-log4j-1.0.3.jar" />
 
             <zipfileset
                 excludes="META-INF/*.SF"
-                src="${lib.dir}/log4j-1.2.16.jar" />
+                src="${lib.dir}/log4j-1.2.17.jar" />
         	
         </jar>
     </target>

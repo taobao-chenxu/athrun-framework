@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="libs/android.jar" sourcepath="D:/android/android sdk/sdk/sources/android-19"/>
-	<classpathentry kind="lib" path="libs/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="libs/android-logging-log4j-1.0.2.jar" sourcepath="C:/Documents and Settings/taichan/.m2/repository/de/mindpipe/android/android-logging-log4j/1.0.2/android-logging-log4j-1.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="libs/android-logging-log4j-1.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
